@@ -1,0 +1,18 @@
+- type: entity
+  parent: BaseWeaponRifle
+  id: WeaponM4A1new
+  name: "M4A1"
+  description: "Стандартная штурмовая винтовка американской, можно сказать - классика. Обладает калибром 5.56"
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Rifles/m4a1.rsi
+    layers:
+    - state: icon
+  - type: Item
+    size: 5
+    slotFlags:
+    - Belt
+  - type: Appearance
+    visuals:
+    - type: RangedWeaponVisuals
+      weaponLayer: item
