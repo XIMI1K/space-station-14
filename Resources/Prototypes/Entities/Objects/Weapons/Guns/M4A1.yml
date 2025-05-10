@@ -8,11 +8,14 @@
     sprite: Objects/Weapons/Guns/Rifles/m4a1.rsi
     layers:
     - state: icon
-  - type: Item
-    size: 5
     slotFlags:
     - Belt
   - type: Appearance
     visuals:
     - type: RangedWeaponVisuals
       weaponLayer: item
+  - type: Gun
+    fireRate: 2
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
